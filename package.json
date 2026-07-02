@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
-  },
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/loucodanoite/yearbook-backend.git"
@@ -23,6 +24,7 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "nodemon": "^3.1.14",
     "prisma": "^6.19.3"
   }
 }
